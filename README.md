@@ -16,6 +16,13 @@ Modified by Terry Myers:
 4. Added new example for high resolution control of an LED
 5. Added "{ 0, 0, 0, 0, 0 }, //TIMER1C" to line 107 in ATimerDefs.cpp as suggested by texmit from arduino forms
 
+Examples:
+
+- `PWM` - fade with a custom frequency
+- `PWM_pwmWriteHR_LED` - high resolution LED dimming
+- `PWM_resolution_example` - frequency / resolution combinations
+- `PWM_LLM_Bridge` - control PWM outputs in plain language from a fully local LLM (no cloud, no API) over serial, with a watchdog failsafe
+
 Original repository
 https://code.google.com/archive/p/arduino-pwm-frequency-library/downloads
 
